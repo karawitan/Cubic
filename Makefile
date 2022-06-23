@@ -1,7 +1,7 @@
 DOCKER_OPT=--platform linux/x86_64
 CUBIC_IMG=cubic:0.1
 
-ISO=/tmp/cubic-docker/iso/ubuntu-18.04.6-desktop-amd64.iso
+ISO=/iso/ubuntu-18.04.6-desktop-amd64.iso
 MOUNTPOINT=/tmp/cubic-docker/app/source-disk
 
 default: x11
